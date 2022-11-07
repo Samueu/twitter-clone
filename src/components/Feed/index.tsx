@@ -2,8 +2,8 @@ import React from 'react';
 
 // import { Container } from './styles';
 
-const Buttom: React.FC = () => {
+const Feed: React.FC = () => {
   return <div />;
 }
 
-export default Buttom;
+export default Feed;
