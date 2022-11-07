@@ -29,7 +29,7 @@ const ProfilePage: React.FC = () => {
             <ul>
                 <li>
                     <LocationIcon />
-                    Belo Horizonte
+                    Bh eh quem?
                 </li>
             </ul>
             <ul>
