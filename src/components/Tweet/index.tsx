@@ -7,6 +7,7 @@ import { Container,
     Avatar,
     Content,
     Header,
+    Dot,
     Description,
     ImageContent,
     Icons,
@@ -17,42 +18,42 @@ import { Container,
 
 const Tweet: React.FC = () => {
   return(
-    <Container>
-        <Retweeted>
-            <RocketseatIcon />
-            Você retweetou
-        </Retweeted>
-        <Body>
-            <Avatar />
+        <Container>
+            <Retweeted>
+                <RocketseatIcon />
+                Você retweetou
+            </Retweeted>
+            <Body>
+                <Avatar />
 
 
-            <Content>
-                <Header>
-                    <strong>Samuel</strong>
-                    <span>@wakeupfilthy</span>
-                    <Dot />
-                    <time>09 de fevereiro</time>
-                </Header>
+                <Content>
+                    <Header>
+                        <strong>Samuel</strong>
+                        <span>@wakeupfilthy</span>
+                        <Dot />
+                        <time>09 de fev</time>
+                    </Header>
 
-                <Description>foguete nao tem re ne porra!</Description>
+                    <Description>foguete nao tem re!</Description>
 
-                <ImageContent />
-                <Status>
-                    <CommentIcon />
-                    17
-                </Status>
-                <Status>
-                    <RetweetIcon />
-                    17
-                </Status>
-                <Status>
-                    <LikeIcon />
-                    999
-                </Status>
-                <Icons />
-            </Content>
-        </Body>
-    </Container>
+                    <ImageContent />
+                    <Status>
+                        <CommentIcon />
+                        17
+                    </Status>
+                    <Status>
+                        <RetweetIcon />
+                        17
+                    </Status>
+                    <Status>
+                        <LikeIcon />
+                        999
+                    </Status>
+                    <Icons />
+                </ Content>
+            </Body>
+        </Container>
     );
 }
 
