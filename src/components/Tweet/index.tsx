@@ -38,19 +38,21 @@ const Tweet: React.FC = () => {
                     <Description>foguete nao tem re!</Description>
 
                     <ImageContent />
-                    <Status>
-                        <CommentIcon />
-                        17
-                    </Status>
-                    <Status>
-                        <RetweetIcon />
-                        17
-                    </Status>
-                    <Status>
-                        <LikeIcon />
-                        999
-                    </Status>
-                    <Icons />
+                    
+                    <Icons>
+                        <Status>
+                            <CommentIcon />
+                            18
+                        </Status>
+                        <Status>
+                            <RetweetIcon />
+                            18
+                        </Status>
+                        <Status>
+                            <LikeIcon />
+                            999
+                        </Status>
+                    </Icons>
                 </ Content>
             </Body>
         </Container>
