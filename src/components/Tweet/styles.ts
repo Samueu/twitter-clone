@@ -15,6 +15,8 @@ export const Retweeted = styled.div`
   align-items: center;
   font-size: 13px;
   color: var(--gray);
+
+  cursor: pointer;
 `;
 export const RocketseatIcon = styled(Rocketseat)`
   width: 16px;
