@@ -22,7 +22,7 @@ export const Item = styled.div`
         padding-bottom: 17px;
     }
 `;
-export const Titl = styled.div`
+export const Title = styled.div`
     font-weight: bold;
     font-size: 19px;
 `;
