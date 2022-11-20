@@ -6,4 +6,4 @@ const List: React.FC = () => {
   return <div />;
 }
 
-export default List;
+export default List;\
